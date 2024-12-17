@@ -113,3 +113,24 @@ img{
 .bird p{
     margin-top: 2px;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 8em;
+    flex-grow: 0;
+    
+}
+.quote blockquote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.quote p{
+    font-weight: 900;
+    text-align: right;
+    margin: 0 5em 0 0;
+}
