@@ -1,136 +1,165 @@
-body{
-    margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.main-container{
-    display: flex;
-    flex-direction: column;
-}
-
-.header{
+.main-container {
   display: flex;
   flex-direction: column;
-  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
   gap: 100px;
   padding-bottom: 100px;
 }
 
-.header h1{
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-    margin: 0;
+.header h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
 }
 
-.header a, .header p{
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-top: 0;
+.header a,
+.header p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 0;
 }
 
-.header .logo{
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 600;
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
 }
 
-.upper-header{
-    display: flex;
-    justify-content: space-around;
-    gap: 300px;
+.upper-header {
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
 }
 
-.nav-links, .logo{ 
-    display: flex;
-    gap: 15px;
-    align-items: center;
+.nav-links,
+.logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
-.nav-links li{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav-links li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
- a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.lower-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+.lower-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
 
-.header-info{
+.header-info {
   display: flex;
   flex-direction: column;
   flex-basis: 450px;
 }
 
-img{
-    width: 500px;
-    height: 200px;
-    flex-shrink: 0;
+img {
+  width: 500px;
+  height: 200px;
+  flex-shrink: 0;
 }
 
-.sign-up{
-        width: 100px; 
-        cursor: pointer;
-        padding: 8px 16px;
-        border-radius: 8px;
-        background: #3882f6;
-        border: 1px solid #3882f6;
-        color: white;
+.sign-up {
+  width: 100px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #3882f6;
+  border: 1px solid #3882f6;
+  color: #f9faf8;
 }
 
-.information{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 50px;
+.information {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
-.information h1{
-    margin-bottom: 32px;
+.information h1 {
+  margin-bottom: 32px;
 }
-.images-container{
-    display: flex;
-    justify-content: center;
-    flex-basis: 200px;
-    gap: 52px;
-}
-
-.bird{
-    max-width: 200px;
-}
-.bird img{
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-}
-.bird p{
-    margin-top: 2px;
+.images-container {
+  display: flex;
+  justify-content: center;
+  flex-basis: 200px;
+  gap: 52px;
 }
 
-.quote{
-    background-color: #e5e7eb;
-    padding: 8em;
-    flex-grow: 0;
-    
+.bird {
+  max-width: 200px;
 }
-.quote blockquote p{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    text-align: left;
-    padding: 0;
-    margin: 0;
+.bird img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.bird p {
+  margin-top: 2px;
 }
 
-.quote p{
-    font-weight: 900;
-    text-align: right;
-    margin: 0 5em 0 0;
+.quote {
+  background-color: #e5e7eb;
+  padding: 8em;
+  flex-grow: 0;
+}
+.quote blockquote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.quote p {
+  font-weight: 900;
+  text-align: right;
+  margin: 0 5em 0 0;
+}
+
+.signing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.signing .sign-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  flex-basis: 700px;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 20px;
+}
+
+.signing .sign-info{
+  margin: 0;
+  padding: 0;
+}
+
+.signing .bottom-button{
+  border: 1px solid #f9faf8;
 }
