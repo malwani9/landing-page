@@ -84,3 +84,32 @@ img{
         border: 1px solid #3882f6;
         color: white;
 }
+
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.information h1{
+    margin-bottom: 32px;
+}
+.images-container{
+    display: flex;
+    justify-content: center;
+    flex-basis: 200px;
+    gap: 52px;
+}
+
+.bird{
+    max-width: 200px;
+}
+.bird img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.bird p{
+    margin-top: 2px;
+}
