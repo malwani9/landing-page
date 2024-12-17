@@ -5,7 +5,7 @@ Practicing flexbox.
 - TheOdinPoject - Foundation 
 - Landing page project
 
-Image creadits
+Image credits
 1. **Image Name**: Header image 
    - **Author**: AberrantRealities  
    - **Source**: [Pixabay] [https://pixabay.com/illustrations/ai-generated-mountain-clouds-night-8662021/]   
