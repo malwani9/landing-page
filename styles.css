@@ -163,3 +163,10 @@ img {
 .signing .bottom-button{
   border: 1px solid #f9faf8;
 }
+
+footer{
+  padding: 20px;
+  text-align: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+}
